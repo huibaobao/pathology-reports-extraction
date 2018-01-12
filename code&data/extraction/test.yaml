@@ -1,0 +1,366 @@
+G评分:
+  !!python/unicode 'decimal':
+    keywords:
+    - !!python/tuple [!!python/unicode 'G']
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [0, 5]
+    value_expression: ['[\d+\-~～]+']
+    value_type: true
+    value_unit: []
+S评分:
+  !!python/unicode 'decimal':
+    keywords:
+    - !!python/tuple [!!python/unicode 'S']
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [0, 5]
+    value_expression: ['[\d+\-~～]+']
+    value_type: true
+    value_unit: []
+癌栓:
+  无:
+    keywords:
+    - !!python/tuple [癌栓, 未见]
+    negation: []
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  有:
+    keywords:
+    - !!python/tuple [癌栓]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+肿瘤分级:
+  等级:
+    keywords:
+    - !!python/tuple [级]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: ['I*[～-]*I+']
+    value_type: true
+    value_unit: [级]
+肿瘤类型:
+  上皮样血管平滑肌脂肪瘤:
+    keywords:
+    - !!python/tuple [上皮样血管平滑肌脂肪瘤]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  低度异型增生结节:
+    keywords:
+    - !!python/tuple [低级别异型增生结节]
+    - !!python/tuple [低度异型增生结节]
+    - !!python/tuple [!!python/unicode 'LDN']
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  原发性硬化性胆管炎:
+    keywords:
+    - !!python/tuple [原发性硬化性胆管炎]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  囊肿:
+    keywords:
+    - !!python/tuple [囊肿]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  局灶性结节性增生:
+    keywords:
+    - !!python/tuple [局灶结节性增生]
+    - !!python/tuple [局灶性结节增生]
+    - !!python/tuple [局灶结节增生]
+    - !!python/tuple [局灶性结节性增生]
+    - !!python/tuple [!!python/unicode 'FNH']
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  异型增生结节:
+    keywords:
+    - !!python/tuple [异型增生结节]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  海绵状血管瘤:
+    keywords:
+    - !!python/tuple [海绵状血管瘤]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  混合型肝癌:
+    keywords:
+    - !!python/tuple [肝细胞胆管细胞混合细胞癌]
+    - !!python/tuple [混合]
+    - !!python/tuple [混合型]
+    - !!python/tuple [混合性]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  癌肉瘤:
+    keywords:
+    - !!python/tuple [癌肉瘤]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  肝内胆管细胞癌:
+    keywords:
+    - !!python/tuple [肝内胆管细胞癌]
+    - !!python/tuple [肝内胆管肿瘤]
+    - !!python/tuple [周围性胆管癌]
+    - !!python/tuple [周围型胆管癌]
+    - !!python/tuple [肝内胆管腺癌]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  肝母细胞癌:
+    keywords:
+    - !!python/tuple [肝母细胞癌]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  肝细胞肝癌:
+    keywords:
+    - !!python/tuple [肝细胞肝癌]
+    - !!python/tuple [肝细胞性肝癌]
+    - !!python/tuple [肝细胞性癌]
+    - !!python/tuple [肝细胞癌]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  肝细胞腺瘤:
+    keywords:
+    - !!python/tuple [肝细胞腺瘤]
+    - !!python/tuple [肝腺瘤]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  肝门胆管细胞癌:
+    keywords:
+    - !!python/tuple [肝门胆管细胞癌]
+    - !!python/tuple [肝门胆管癌]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  胆管细胞癌:
+    keywords:
+    - !!python/tuple [胆管细胞癌]
+    - !!python/tuple [胆管来源腺癌]
+    - !!python/tuple [胆管腺癌]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  高度异型增生结节:
+    keywords:
+    - !!python/tuple [高级别异型增生结节]
+    - !!python/tuple [高度异型增生结节]
+    - !!python/tuple [!!python/unicode 'HDN']
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+解剖学部位:
+  肝中叶:
+    keywords:
+    - !!python/tuple [肝中叶]
+    - !!python/tuple [中叶]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  肝右前叶:
+    keywords:
+    - !!python/tuple [肝右前叶]
+    - !!python/tuple [右前叶]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  肝右前叶上段:
+    keywords:
+    - !!python/tuple [肝右前叶上段]
+    - !!python/tuple [右前叶上段]
+    - !!python/tuple [Ⅷ段]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  肝右前叶下段:
+    keywords:
+    - !!python/tuple [肝右前叶下段]
+    - !!python/tuple [右前叶下段]
+    - !!python/tuple [Ⅴ段]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  肝右叶:
+    keywords:
+    - !!python/tuple [肝右叶]
+    - !!python/tuple [右叶]
+    - !!python/tuple [右肝]
+    - !!python/tuple [右半肝]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  肝右后叶:
+    keywords:
+    - !!python/tuple [肝右后叶]
+    - !!python/tuple [右后叶]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  肝右后叶上段:
+    keywords:
+    - !!python/tuple [肝右后叶上段]
+    - !!python/tuple [右后叶上段]
+    - !!python/tuple [Ⅶ段]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  肝右后叶下段:
+    keywords:
+    - !!python/tuple [肝右后叶下段]
+    - !!python/tuple [右后叶下段]
+    - !!python/tuple [Ⅵ段]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  肝尾状叶:
+    keywords:
+    - !!python/tuple [肝尾状叶]
+    - !!python/tuple [肝尾叶]
+    - !!python/tuple [尾状叶]
+    - !!python/tuple [Ⅰ段]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  肝左内叶:
+    keywords:
+    - !!python/tuple [肝左内叶]
+    - !!python/tuple [左内叶]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  肝左内叶上部:
+    keywords:
+    - !!python/tuple [肝左内叶上部]
+    - !!python/tuple [肝左内叶上段]
+    - !!python/tuple [左内叶上部]
+    - !!python/tuple [左内叶上段]
+    - !!python/tuple [Ⅳa段]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  肝左内叶下部:
+    keywords:
+    - !!python/tuple [肝左内叶下部]
+    - !!python/tuple [肝左内叶下段]
+    - !!python/tuple [左内叶下部]
+    - !!python/tuple [左内叶下段]
+    - !!python/tuple [Ⅳb段]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  肝左叶:
+    keywords:
+    - !!python/tuple [肝左叶]
+    - !!python/tuple [左叶]
+    - !!python/tuple [左肝]
+    - !!python/tuple [左半肝]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  肝左外叶:
+    keywords:
+    - !!python/tuple [肝左外叶]
+    - !!python/tuple [左外叶]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  肝左外叶上段:
+    keywords:
+    - !!python/tuple [肝左外叶上段]
+    - !!python/tuple [左外叶上段]
+    - !!python/tuple [Ⅱ段]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  肝左外叶下段:
+    keywords:
+    - !!python/tuple [肝左外叶下段]
+    - !!python/tuple [左外叶下段]
+    - !!python/tuple [Ⅲ段]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
+  胆囊:
+    keywords:
+    - !!python/tuple [胆囊]
+    negation: [否认, 无, 没有, 未见, 不是, 拒绝, 未检测, 未监测]
+    scope: [10, 10]
+    value_expression: []
+    value_type: false
+    value_unit: []
